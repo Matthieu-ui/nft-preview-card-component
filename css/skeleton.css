@@ -28,27 +28,43 @@
 
 /* --------------------------------- footer --------------------------------- */
 
-.eth {
-    padding: 6px;
+.creator-avitar {
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+p.creator {
+    padding-left: 4px;
 }
 
 .clock-icon {
-    padding: 6px;
+    vertical-align: middle;
+    padding-right: 2px;
+}
+
+.eth-svg {
+    vertical-align: middle;
+    padding-right: 3px;
 }
 
 .auction-activity {
     float: right;
     font-size: small;
-    display: inline-flex;
+    vertical-align: middle;
+}
+
+.creator-section {
+    border-top: 1px solid #9fb3d438;
 }
 
 .item-listing {
-    display: inline-flex;
     color: #34fbf6;
+    vertical-align: middle;
 }
 
 .creator {
-    border-top: 1px solid #9fb3d4;
     padding-top: 1em;
     font-size: small;
 }
@@ -66,7 +82,12 @@
     border-radius: 1em;
     box-shadow: #0c1729 0 0 15px 6px;
     padding: 1em;
+    width: 280px;
     margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
 }
 
 .nft-item {
@@ -79,59 +100,16 @@ p {
 }
 
 .footer {
-    border-top: 1px solid #9fb3d4;
-    margin: auto 0;
+    border-top: 1px solid #9fb3d444;
+    margin: auto;
     position: absolute;
+    bottom: 1px;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    right: 0;
     color: white;
     text-align: center;
-}
-
-
-/* Larger than mobile */
-
-@media (min-width: 400px) {
-    .nft-preview {
-        width: 250px;
-    }
-}
-
-
-/* Larger than phablet (also point when grid becomes active) */
-
-@media (min-width: 550px) {
-    .nft-preview {
-        width: 250px;
-    }
-}
-
-
-/* Larger than tablet */
-
-@media (min-width: 750px) {
-    .nft-preview {
-        width: 250px;
-    }
-}
-
-
-/* Larger than desktop */
-
-@media (min-width: 1000px) {
-    .nft-preview {
-        width: 250px;
-    }
-}
-
-
-/* Larger than Desktop HD */
-
-@media (min-width: 1200px) {
-    .nft-preview {
-        width: 250px;
-    }
+    width: 80%;
+    padding: 1em;
 }
 
 
@@ -404,13 +382,18 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-    color: #34fbf6;
+    color: #ffffff;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
+}
+
+a.eth {
+    font-weight: 600;
+    color: #34fbf6;
 }
 
 a:hover {
-    color: #5cfffa;
+    color: #34fbf6;
     cursor: pointer;
 }
 
