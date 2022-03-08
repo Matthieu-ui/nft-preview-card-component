@@ -45,7 +45,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://matthieufelker.io)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Matthieu-ui)
+- Website - [Matthieu Felker](https://matthieufelker.io)
+- Frontend Mentor - [@matthieu-ui](https://www.frontendmentor.io/profile/Matthieu-ui)
 - Twitter - [@fattmelker](https://www.twitter.com/fattmelker)
 - GitHub - [Matthieu-ui](https://github.com/matthieu-ui)
