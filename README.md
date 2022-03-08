@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/html-skeleton-css-3oizp4Q5k)
+- Live Site URL: [Chttps://matthieufelker.io/nft-card/](https://matthieufelker.io/nft-card/)
 
 ## My process
 
