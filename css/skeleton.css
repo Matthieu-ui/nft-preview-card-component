@@ -40,6 +40,7 @@
     border: 1px solid white;
     border-radius: 100%;
     vertical-align: middle;
+    margin-right: 1em;
 }
 
 p.creator {
@@ -47,13 +48,13 @@ p.creator {
 }
 
 .clock-icon {
-    vertical-align: middle;
-    padding-right: 2px;
+    vertical-align: text-bottom;
+    padding-right: 6px;
 }
 
 .eth-svg {
-    vertical-align: middle;
-    padding-right: 3px;
+    vertical-align: text-bottom;
+    padding-right: 6px;
 }
 
 .auction-activity {
@@ -74,6 +75,8 @@ p.creator {
 .creator {
     padding-top: 1em;
     font-size: small;
+    margin: auto;
+    padding-bottom: 1em;
 }
 
 .item-image {
@@ -299,7 +302,6 @@ body {
 body {
     font-size: 1.5em;
     /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", Arial, Helvetica, sans-serif;
     color: #222;

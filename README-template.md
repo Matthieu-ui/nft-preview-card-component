@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Felker-nft-preview-card-382022.PNG)
 
 ### Links
 
@@ -39,7 +39,7 @@ Users should be able to:
 ## My process
 
 - This design utilized a very light and simple and responisive css boilerplate --[http://getskeleton.com/
-](Skeloton). I started by making a few required changes in the default skeloton stylesheet for matching the design palet, active states etc. I set a new container, then after adding in the supplied content it was just a matter of creating classes for that content and styling them appropiatly to best match the example desktop design. 
+](Skeleton). I started by making a few required changes in the default skeloton stylesheet for matching the color palet, active states, etc. I set a new container, then after adding in the supplied content, it was just a matter of creating classes for that content and styling them appropiatly to best match the example desktop design. 
 ### Built with
 
 - Semantic HTML5 markup
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Add your name here](https://matthieufelker.io)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Matthieu-ui)
 - Twitter - [@fattmelker](https://www.twitter.com/fattmelker)
-
+- GitHub - [Matthieu-ui](https://github.com/matthieu-ui)
