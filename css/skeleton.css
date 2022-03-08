@@ -25,10 +25,17 @@
 - Media Queries
 */
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
 
-/* --------------------------------- footer --------------------------------- */
+#content-wrap {
+    padding-bottom: 2.5rem;
+    height: 1000px;
+}
 
-.creator-avitar {
+.creator-avatar {
     width: 32px;
     border: 1px solid white;
     border-radius: 100%;
@@ -36,7 +43,7 @@
 }
 
 p.creator {
-    padding-left: 4px;
+    padding-left: 3px;
 }
 
 .clock-icon {
@@ -294,7 +301,7 @@ body {
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "HelveticaNeue", Arial, Helvetica, sans-serif;
     color: #222;
 }
 
